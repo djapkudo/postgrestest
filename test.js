@@ -15,8 +15,10 @@ app.get('/', function (req, res) {
             if(err) {
                 return console.error('error running query', err);
             }
+            done();
 
-            res.send(result['rows'])
+            res.send(result['rows']);
+
             var diff = process.hrtime(cur_time);
             console.log("%d ns", diff[0] * 1e9 + diff[1]);
         });
