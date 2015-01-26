@@ -3,6 +3,10 @@
 3. "curl localhost:8080" for go and "curl localhost:8081" for node.
    a. Each outputs the time the request took in nanoseconds.
 
+Download Dependencies for nodejs
+1. sudo npm install
+
+
 1. Run the deisred program and cat to tmp.txt
 2. In a seperate shell: for i in `seq 1 X`; do curl <host:port>; done
 3. Kill the program.
