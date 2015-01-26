@@ -1,0 +1,14 @@
+{
+  "name": "junk",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "pg": "*",
+    "express": "*",
+    "request": "*"
+  },
+  "description": "junk",
+  "author": "Daniel Joyce",
+  "license": "ISC",
+  "private": "true"
+}
